@@ -4,7 +4,7 @@
 ###### Question 21 = 20 points
 ***
 
-#### Question 1 
+#### Question 1    Answer : d
 Which are the keywords not in use?
 > a) transient and volatile
 
@@ -15,7 +15,7 @@ Which are the keywords not in use?
 > d) const and goto
 
 ***
-#### Question 2
+#### Question 2.   Answer : false
 Keywords are non-reserved word in java
 
 > true
@@ -23,7 +23,7 @@ Keywords are non-reserved word in java
 > false
 
 ***
-#### Question 3
+#### Question 3    Answer : b
 Which method is the entry point for Java programs?
 
 > a) void main (String [] args){} 
@@ -35,7 +35,7 @@ Which method is the entry point for Java programs?
 > d) public void main (String [] args){}
 
 ***
-#### Question 4
+#### Question 4.    Answer : c
 Data is stored in ............
 
 > a) Space in memory
@@ -47,7 +47,7 @@ Data is stored in ............
 > d) Data Type
 
 ***
-#### Question 5
+#### Question 5.    Answer : True
 Datatypes impacts on memory allocation
 
 > True
@@ -55,7 +55,7 @@ Datatypes impacts on memory allocation
 > False
 
 ***
-#### Question 6
+#### Question 6.    Answer : a
 Identify correct Output:
 ```
 public class Test_Variable {
@@ -77,7 +77,7 @@ public class Test_Variable {
 > d) 10 and java
 
 ***
-#### Question 7
+#### Question 7.    Answer : True
 Variable name is case-sensitive.
 
 > True
@@ -85,7 +85,7 @@ Variable name is case-sensitive.
 > False
 
 ***
-#### Question 8
+#### Question 8.  Answer : False
 Space is permitted in variable name.
 
 > True
@@ -93,7 +93,7 @@ Space is permitted in variable name.
 > False
 
 ***
-#### Question 9
+#### Question 9    Answer : d
 What is the range of short?
 
 > a) -32768 to 32768
@@ -105,7 +105,7 @@ What is the range of short?
 > d) -32768 to 32767
 
 ***
-#### Question 10
+#### Question 10. Answer : c
 Which suffix is used while declaring a long data type?
 
 > a) S
@@ -117,7 +117,7 @@ Which suffix is used while declaring a long data type?
 > d) l
 
 ***
-#### Question 11
+#### Question 11    Answer : d
 Identify correct Output:
 ```
 public class TestIntDataType{
@@ -137,7 +137,7 @@ public static void main(String[] args){
 > d) -128
 
 ***
-#### Question 12
+#### Question 12.  Answer : a    
 Identify correct Output:
 ```
 public class TestFloat{
@@ -171,7 +171,7 @@ public static void main(String[] args){
 > 10.128952248
 
 ***
-#### Question 13
+#### Question 13. Answer : d
 What is Precision of float type variable?
 
 > a) 8 decimals
@@ -183,7 +183,7 @@ What is Precision of float type variable?
 > d) 7 decimals
 
 ***
-#### Question 14
+#### Question 14. Answer : a
 Identify the data type with the following sentences:
 
 1. The length should be one
@@ -201,7 +201,7 @@ Identify the data type with the following sentences:
 > d) String
 
 ***
-#### Question 15
+#### Question 15.   Answer : False
 In Java, boolean datatype can be represented by 1 or 0.
 
 > True
@@ -209,7 +209,7 @@ In Java, boolean datatype can be represented by 1 or 0.
 > False
 
 ***
-#### Question 16
+#### Question 16.   Answer : b
 How to cast 64-bit datatype into 32-bit datatype?
 
 > a) Implicit Typecasting
@@ -219,7 +219,7 @@ How to cast 64-bit datatype into 32-bit datatype?
 > c) Widening Typecasting
 
 ***
-#### Question 17
+#### Question 17. Answer : d
 In implicit Typecasting, what is the correct sequence of data type compatibility?
 
 > a) double -> float->long->int->short->byte
@@ -231,7 +231,7 @@ In implicit Typecasting, what is the correct sequence of data type compatibility
 > d) byte->short->int>long->float->double
 
 ***
-#### Question 18
+#### Question 18. Answer : e
 In Java, we can create BigDecimal objects of which of the following types?
 
 > a) int
@@ -247,7 +247,7 @@ In Java, we can create BigDecimal objects of which of the following types?
 > f) All of the above
 
 ***
-#### Question 19
+#### Question 19.  Answer : False
 The floating-point data types are used for calculating accurate precise values in a financial calculation.
 
 > True
@@ -255,7 +255,7 @@ The floating-point data types are used for calculating accurate precise values i
 > False
 
 ***
-#### Question 20
+#### Question 20.   Answer : c
 BigDecimal is a part of which Java package?
 
 > a) java.util
@@ -267,7 +267,7 @@ BigDecimal is a part of which Java package?
 > d) java.io
 
 ***
-#### Question 21
+#### Question 21. 
 Solve an equation:
 
 a² + 2ab + b²
@@ -279,3 +279,15 @@ variable b --> float b = any decimal number
 variable value --> datatype?? = a² + 2ab + b²
 ```
 
+
+Answer : 
+
+public class hello {
+
+	public static void main(String[] args) {
+		int a = 3;
+		float b = 5.5f;
+		double value = a*a + 2*a*b + b*b ;
+		System.out.println(value);
+        }
+       }
