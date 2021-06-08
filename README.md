@@ -282,8 +282,8 @@ variable value --> datatype?? = a² + 2ab + b²
 
 Answer : 
 
-public class hello {
 
+public class hello {
 	public static void main(String[] args) {
 		int a = 3;
 		float b = 5.5f;
